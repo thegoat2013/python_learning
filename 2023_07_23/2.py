@@ -20,7 +20,7 @@ def previous_number (high,low):
     pastnumber=0
     currentnumber=1
     sum=0
-    for z in range(high,low):
+    for pastnumber in range(high,low):
         sum=pastnumber + currentnumber
         pastnumber=pastnumber+1
         currentnumber=currentnumber+1
