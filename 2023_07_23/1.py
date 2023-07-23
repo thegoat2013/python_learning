@@ -14,7 +14,9 @@ number1 = 40
 number2 = 30
 Expected Output:The result is 70
 '''
-
-
-
-
+x=20*30
+if x < 1000 or x == 1000:
+    print(x)
+z=40+30
+if z < 1000 or x== 1000:
+    print(z)
