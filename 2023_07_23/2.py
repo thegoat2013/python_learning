@@ -16,13 +16,12 @@ Current Number 7 Previous Number  6  Sum:  13
 Current Number 8 Previous Number  7  Sum:  15
 Current Number 9 Previous Number  8  Sum:  17
 '''
-def previous_number (high,low):
+def sum_previous_number (low,high):
     pastnumber=0
-    currentnumber=1
     sum=0
-    for pastnumber in range(high,low):
-        sum=pastnumber + currentnumber
-        pastnumber=pastnumber+1
-        currentnumber=currentnumber+1
-    print(sum)   
-previous_number (0,10)   
+    for currentnumber in range(low,high):
+        sum=currentnumber + pastnumber
+        print(sum)
+        pastnumber=currentnumber
+       
+sum_previous_number (0,10)   

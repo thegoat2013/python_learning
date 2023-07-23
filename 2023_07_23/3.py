@@ -8,3 +8,7 @@ remove_chars("pynative", 4) so output must be tive. Here we need to remove first
 remove_chars("pynative", 2) so output must be native. Here we need to remove first two characters from a string.
 Note: n must be less than the length of the string.
 '''
+str =" dad is fat"
+
+# slicing using indexing sequence
+print(str[: 6])
