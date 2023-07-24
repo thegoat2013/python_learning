@@ -14,3 +14,13 @@ result is True
 numbers_y = [75, 65, 35, 75, 30]
 result is False
 '''
+def start_and_end (source):
+    first=(source[0])
+    last=(source[-1])
+    if first == last:
+        return True
+    else:
+        return False
+list = [1, 2, 8, 4, 2, 1]
+start_and_end (list)
+    
