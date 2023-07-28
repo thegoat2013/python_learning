@@ -9,8 +9,8 @@ Expected Output:
 
 Emma appeared 2 times
 '''
-
-def countSubString(whole_string, sub_string)
+import re
+z=("Emma is good developer. Emma is a writer", "Emma")
+def countSubString(whole_string, sub_string):
     #write code here
-
-countSubString("Emma is good developer. Emma is a writer", "Emma")
+    
