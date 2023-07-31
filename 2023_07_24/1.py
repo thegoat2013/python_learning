@@ -21,6 +21,6 @@ def start_and_end (source):
         return True
     else:
         return False
-list = [1, 2, 8, 4, 2, 1]
-start_and_end (list)
-    
+list = [1, 2, 8, 4, 2, 2]
+x=(start_and_end (list))
+print(x)    

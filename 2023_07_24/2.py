@@ -7,13 +7,11 @@ Exercise 8: Print the following pattern
 5 5 5 5 5
 '''
 def patterns (rows):
-    count=1
-    times=1
-    numb=1
-    for num in range(0,rows):
-        print(str(numb) * count)
-        count=count+1
-        numb=numb+1
+    rows=rows+1
+    iterate=1
+    while iterate<rows:
+        print(str(iterate) * iterate)
+        iterate=iterate+1
     
             
-patterns(5)                
+patterns(10)                
