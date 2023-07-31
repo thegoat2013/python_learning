@@ -15,16 +15,14 @@ def countSubString(whole_string, sub_string):
     #write code here
     count=0
     index=0
-    last=len(sub_string)
-    for num in whole_string:
-        x=whole_string[index:index + last]
+    search_length =len(sub_string)
+    while index < len(whole_string):
+        x=whole_string[index:index + search_length]
         index=index+1
         if x == sub_string:
             count=count+1
-            
-    print(count)
-countSubString(z, "Emma")     
-    
+    print(count)    
+countSubString(z, "Emma") 
     
         
         
