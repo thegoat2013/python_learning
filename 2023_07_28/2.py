@@ -13,3 +13,11 @@ Expected Output:
 9  18 27 36 45 54 63 72 81 90 		
 10 20 30 40 50 60 70 80 90 100 
 '''
+factor=1
+for num in range(1,100):
+    x=factor*num
+    print(str(x))
+    int(x)
+    if num==11:
+        factor=factor+1
+        num=0
