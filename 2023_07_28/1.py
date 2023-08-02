@@ -13,10 +13,10 @@ list2 = [40, 45, 60, 75, 90]
 
 def add_lists(firstlist, secondlist):
     newlist = []
-    for num in range(0,len(firstlist)):
+    for num in firstlist:
         if num % 2==1:
             newlist.append(num)
-    for numb in range(0,len(secondlist)):
+    for numb in secondlist:
         if numb % 2==0:
             newlist.append(numb)
     print(newlist)
