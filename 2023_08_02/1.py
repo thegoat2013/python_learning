@@ -16,21 +16,19 @@ def tax (salary):
     tax=0
     if salary <= 10000:
         tax=0
-    elif salary > 10000 and salary<= 20000:    
+    elif salary > 10000:    
         salary=salary-10000
         tax=salary*0.1
-    elif salary > 20000 and salary <=30000:
+    elif salary > 20000:
         salary=salary-20000
         tax=salary*0.2
-        tax=10000*0.1 + tax
     elif salary > 300000:
         salary=salary-30000
-        tax=salary*0.3
-        tax=10000*0.2 + tax
+        tax=salary*0.3        
         tax=10000*0.1 + tax
     print(tax)    
     
     
     
-tax(11000)
+tax(21000)
 

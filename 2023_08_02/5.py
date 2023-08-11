@@ -9,3 +9,7 @@ n = 5
 Expected output:
 24690
 '''
+def terms (number, terms):
+    series=[]
+    previous=0
+    currenterm=
