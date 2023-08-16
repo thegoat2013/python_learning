@@ -10,6 +10,11 @@ Expected output:
 24690
 '''
 def terms (number, terms):
-    series=[]
-    previous=0
-    currenterm=
+    total=number
+    for num in range(0,terms-1):
+        total=total+number*10+number
+        number=number*10+number
+    print(total)
+terms(2,5)    
+        
+    
