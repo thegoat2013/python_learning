@@ -10,9 +10,9 @@ Expected output:
 24690
 '''
 def terms (number, terms):
-    term_number=number
-    total=number
-    for num in range(1,terms):
+    term_number=0
+    total=0
+    for num in range(0,terms):
         term_number=term_number*10+number
         total=total+term_number
         
