@@ -4,7 +4,7 @@ Given a string s1, write a program to return the sum and average of the digits t
 
 Given:
 '''
-str1 = "PYnative29@#8496"
+g = "PYnative29@#8496"
 '''
 Expected Outcome:
 
@@ -12,9 +12,12 @@ Expected Outcome:
 Sum is: 38 and Average is  6.333333333333333
 '''
 total=0
-for num in range(0,len(str1)):
-    if isinstance(num, int):
-        total=total+num
-    else:
-        continue
-print(total)       
+divisor=0
+for index  in range(0,len(g)):
+    char =(g[index])
+    if char.isnumeric():
+        total=total+int(char) 
+        divisor=divisor+1
+print(total)
+average=total/divisor
+print(average)
