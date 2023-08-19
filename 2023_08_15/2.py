@@ -2,11 +2,15 @@
 Exercise 11: Reverse a given string
 Given:
 '''
-str1 = "PYnative"
+test = "PYnative"
 '''
 Expected Output:
 
 evitanYP
 '''
-result=str1[::-1]
-print(result)
+def reverse(source):
+    output=''
+    for index in range(len(source)-1,-1,-1):
+        output=output+(source[index])
+    print(output)
+reverse(test)        
