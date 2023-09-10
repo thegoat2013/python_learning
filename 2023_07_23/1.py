@@ -15,8 +15,8 @@ number2 = 30
 Expected Output:The result is 70
 '''
 def mutiplication_sum (num1,num2):
-    if num1*num2<1000 or num1*num2 == 1000:
+    if num1*num2<=1000:
         print(num1*num2)
-    elif num1*num2 > 1000:
+    else:
         print(num1+num2)
 mutiplication_sum (5,90)        
